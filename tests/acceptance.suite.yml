@@ -10,7 +10,8 @@ modules:
         #- PhpBrowser:
         #    url: http://lessons.yiibasic
         - WebDriver:
-            url: 'http://lessons.yiibasic'
+            #url: 'http://lessons.yiibasic'
+            url: ''
             browser: firefox # 'chrome' or 'firefox'
         - \Helper\Acceptance
 step_decorators: ~
